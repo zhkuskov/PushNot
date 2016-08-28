@@ -2,7 +2,7 @@ var PushNotApp = PushNotApp || {};
 
 PushNotApp.main = (function() {
 
-  var server = 'http://thomasl.apt-domain.as:3000',
+  var server = 'http://apps-cube.com',
 
   showAlert = function(message, title) {
     if(navigator.notification) {
